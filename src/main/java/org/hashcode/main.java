@@ -1,4 +1,4 @@
-package org.example;
+package org.hashcode;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-public class App {
+public class main {
     public static void main(String[] args) {
         File folder = new File("input_file_for_hashcode_gen");
         File[] listOfFiles = folder.listFiles();
