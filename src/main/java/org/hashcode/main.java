@@ -9,7 +9,7 @@ import java.io.InputStream;
 
 public class main {
     public static void main(String[] args) {
-        File folder = new File("input_file_for_hashcode_gen");
+        File folder = new File("src/input_file_for_hashcode_gen");
         File[] listOfFiles = folder.listFiles();
         try {
             for (File file : listOfFiles) {
